@@ -1,0 +1,18 @@
+class LogicalNot
+{
+public static void main(String[] ln)
+{
+boolean n1= true;
+boolean n2= false;
+boolean n3= !n1;
+boolean n4= !n2;
+System.out.println(n3);
+System.out.println(n4);
+}
+
+}
+
+/*Output:
+Compile time: Sucessful
+Runtime: false
+         true*/
